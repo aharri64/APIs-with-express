@@ -1,2 +1,15 @@
 # APIs-with-express
 learning apis with express and axios
+
+## starting off
+Below gives us access to variables in our .env
+```js
+require('dotenv').config()
+```
+
+//to see the variables using process.env
+```js
+console.log(process.env.API_KEY)
+```
+- process.env is the environment of our computer
+- protect you API because people got ustilize it
